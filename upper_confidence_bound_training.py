@@ -35,7 +35,7 @@ for n in range(0,N):
     Ri[ad] = Ri[ad] + reward
     total_reward = total_reward + reward
     
-# Vİsualizing the results
+# Visualizing the results
 plt.hist(ads_selected)
 plt.title('Histogram of ads')
 plt.xlabel('Ads')
